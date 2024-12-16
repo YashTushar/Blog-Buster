@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Profile</title>
+    <link rel="icon" type="image/x-icon" href="/images/favi.png">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-0 m-0 box-border">
+   <div class="boxy w-screen min-h-screen bg-zinc-900 text-white text-xl">
+    <header id="comp" class="bg-red-500 text-white"><h1 class="text-4xl px-10 py-4 font-bold"><a href="/profile">Blog Buster</a></h1></header>
+    <div class="h-4/5 flex justify-center items-center mt-44">
+        <div  id="up" class=" flex flex-col gap-10  border-2 border-white rounded-lg w-6/12 px-10 py-20 justify-center items-center">
+            <h1 class="text-3xl font-bold">Upload Picture: </h1>
+            <form class="flex flex-col gap-10 items-center" action="/updatepp" method="post" autocomplete="off" enctype="multipart/form-data">
+                <input class="ml-20" required type="file" name="image" accept=".png, .jpg, .jpeg"/>
+                <input class="px-5 py-2 bg-red-500 font-semibold text-lg rounded-lg" type="submit" value="Update">
+              </form>
+        </div>
+
+    </div>
+   </div>
+</body>
+</html>

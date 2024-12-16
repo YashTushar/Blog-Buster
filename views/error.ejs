@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favi.png">
+</head>
+<body>
+
+    <div class="main w-full h-screen bg-zinc-900 text-white overflow-x-hidden">
+        <header class="bg-red-500 text-white"><h1 class="text-4xl px-10 py-4 font-bold"><a href="/">Blog Buster</a></h1></header>
+
+        <div class="w-full flex flex-col justify-center items-center mt-14 gap-5">
+            <div id="bee" class="img"><img class="w-4/5" src="images/Bee lounging.gif" alt="" srcset=""></div>
+            <div id="etext" class="msg text-4xl font-bold p-7"><%= msg %></div>
+            <a id="egb" class="px-7 py-2 bg-red-500 font-semibold text-2xl rounded-lg" href="<%= url %>">Go Back</a>
+        </div>
+    </div>
+    
+</body>
+</html>

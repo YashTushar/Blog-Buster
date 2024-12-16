@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViewProfile</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favi.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="fy" class="main bg-zinc-900 w-full min-h-screen text-white pb-20 bg-[url('/images/cartographer.png')] ">
+        <header id="comp" class="bg-red-500 text-white"><h1 class="text-4xl px-10 py-4 font-bold"><a href="/feed">Blog Buster</a></h1></header>
+       
+            <div id="vbox" class="box flex justify-between py-2 px-5 bg-zinc-800 mb-10 items-center">
+                <div><a href="/<%=bpath%>"><i  id="arrow" class="fa-solid fa-arrow-left px-6 py-2  bg-red-500 text-white rounded-xl text-2xl"></i></a></div>
+            <div id="prof" class="pro flex flex-col justify-center items-center">
+                <a href="/profile"><div class="pp h-14 w-14 rounded-full border-2 border-red-500"><img  class="h-full w-full rounded-full object-cover" src="/images/uploads/<%=visitor.profilepic%>" alt=""></div></a>
+                <h1 class="pt-1"></h1>
+            </div>
+            </div>
+            
+        
+        <div class="userprofile">
+            <div class="pp h-52 w-52 rounded-full m-auto">
+                <img class="w-full h-full rounded-full object-cover"src="/images/uploads/<%=user.profilepic%>" alt="" srcset="">
+            </div>
+            <div class="title text-center mt-5">
+                <h1 id="vpt" class="text-6xl font-bold"><%=user.name%></h1>
+                <h3 class="text-red-500 font-semibold text-2xl mt-4">@<%=user.username%></h3>
+            </div>
+            <div class="posts">
+                <h1 class="text-4xl font-bold px-7 mb-10 mt-14 text-center">Posts</h1>
+                <div id="vpos" class="posts flex gap-14 w-full flex-col m-auto items-center">
+                    <% user.posts.forEach((post)=>{ %>
+                        <div id="sposty" class="post border-4 border-zinc-500 bg-zinc-900 w-3/5 rounded-lg p-6 h-fit">
+                            <% if(post.edited){ %>
+                                <div>
+                                    <h1 id="edh" class="text-red-500 font-semibold text-right">(Edited)</h1>
+                                </div>
+                            <% } %>
+                            <h1 class="text-justify break-after-all font-sans text-xl py-5 whitespace-pre-wrap"><%=post.content%></h1>
+                            <div class="controllers flex justify-between mt-5">
+                                <div class="mastercontrol flex text-xl"> 
+                                   <% if(post.likes.includes(visitor._id)){ %>
+                                        <a href="/profile/visitor/<%=user.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-solid fa-heart pr-2 text-xl"></i></a>
+                                   <% }else{%>
+                                        <a href="/profile/visitor/<%=user.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-regular fa-heart pr-2 text-xl"></i></a>
+                                    <% } %>
+                                    <span class="text-red-500"><%=post.likes.length%>
+                                        <span id="lnt">Likes</span>
+                                    </span>
+                                </div>
+                                
+                                <div class="date text-red-500 font-semibold text-lg">
+                                    <%let d = post.date; %>
+                                    <% d.setHours(d.getHours() + 5); %>
+                                    <% d.setMinutes(d.getMinutes() + 30); %>
+                                    <h1 id="dww"> <%=post.date.toLocaleString()%></h1>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                   <% }) %>
+                   
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

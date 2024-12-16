@@ -1,0 +1,498 @@
+@media screen and (max-width: 1200px){
+
+    #fy{
+        background-image: url("../images/cartographer.png");
+    }
+    .all{
+        background-image: url("../images/gala.gif");
+    }
+    .main{
+  
+        overflow-x: hidden;
+    }
+    #srs{
+        margin-top:0;
+        gap: 10px;
+    }
+    #gbb{
+        font-size: 15px;
+        padding: 4px 15px 4px 15px;
+    }
+    #nsr{
+        width: 80%;
+        font-size: 24px;
+    }
+    #posty{
+        width: 85%;
+    }
+    #bee{
+        margin-top: 15px;
+        height: 30%;
+        width: 50%;
+    }
+    #bee img{
+        height: 100%;
+        width: 100%;
+    }
+    #etext{
+        font-size: 17px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    #egb{
+        padding: 2px 12px;
+        font-size: 18px;
+    }
+    #posty .content{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+    #posty .controllers{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    #posty .header h1{
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #posty .header .pp{
+        width: 45px;
+        height: 45px;
+    }
+    #edh{
+        font-size: 13px;
+    }
+    #vpt{
+        font-size: 50px;
+    }
+    #vbox{
+        padding: 4px 10px;
+        align-items: center;
+    }
+    #fcc .mastercontrol a i{
+        font-size: 16px;
+        padding-right: 5px;
+    }
+    #fcc .mastercontrol span{
+        margin-top: 2.7px;
+        font-size: 16px;
+       
+    }
+    #ftt{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    #sb{
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #sb .lg{
+        display: none;
+    }
+    #lll{
+        font-size: 14px;
+        margin: 0;
+    }
+    
+   #lll select{
+    padding: 5px;
+    font-size: 12px;
+ }
+   #filter{
+    width:100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    gap: 20px;
+   }
+   #popo{
+    padding-top: 25px;
+   }
+   #appy{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 0px 8px
+   }
+   #ic{
+    margin-top: 0;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 10px;
+   }
+   #ic .back{
+    font-size: 14px;
+    padding: 0;
+   }
+   #ic .back a i{
+    padding: 8px 15px 8px 15px;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid white;
+    font-size: 18px;
+    margin-top: -1px;
+   }
+   #plg span{
+    font-size: 14px;
+    padding-right: 7px;
+   }
+   #plg i{
+    font-size: 14px;
+    padding: 0;
+   }
+   #srh{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+   }
+   #slg{
+    font-size: 18px;
+    padding: 0;
+    margin-left: 5px;
+   }
+   
+    #ser{
+    width: 75%;
+    position: relative;
+    left: 0;
+    margin-right: 20px;
+    margin-left: 15px;
+    height: 35px;
+   }
+   #seru{
+    height: 35px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 7px;
+    border-width: 1px;
+    
+    
+   }
+   #seruss{
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+   }
+
+   #prof{
+    margin-right: 1px;
+    height: 50px;
+    width: 50px;
+   }
+   #prof .pp{
+    width: 40px;
+    height: 40px;
+    border-width: 1.5px;
+   }
+ 
+   #comp{
+    padding: 1px 0 1px 0;
+    text-align: center;
+   }
+   #comp h1{
+    font-size: 22px;
+    letter-spacing: 1.5px;
+   }
+   #comp h1{
+    padding: 4px 0 4px 0;
+   }
+   #shh{
+   padding: 1.5px 0 1.5px 0;
+    text-align: center;
+    font-size: 19px;
+   }
+   #arrow{
+    font-size: 17px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   }
+   #sposty{
+    width: 90%;
+    padding: 15px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    }
+    #sposty h1{
+        font-size: 17px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    #sposty .controllers{
+        gap: 30px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #vpos{
+        gap: 40px;
+    }
+    #lnt{
+        display: none;
+    }
+    #up{
+        width: 90%;
+    }
+    #istyle{
+        display: none;
+    }
+    #sup{
+        min-height: 100vh;
+    }
+    #sf{
+        width: 85%;
+        font-size: 14px;
+        margin-top: 55px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        border-width: 2px;
+        gap: 20px;
+        padding-left: 5px;
+    }
+
+    #sff{
+        width: 85%;
+        font-size: 14px;
+        margin-top: 90px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-width: 2px;
+        gap: 20px;
+    }
+    #sff h1{
+        font-size: 14px;
+    }
+    #sf h1{
+        font-size: 14px;
+    }
+    #ppp{
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        height: 70px;
+    }
+    #sf .un .inp input{
+        padding: 1.5px 0 1.5px 0;
+        border: none;
+        border-radius: 2px;
+        border-bottom: 2px solid rgb(239 68 68);
+    }
+    #sff .un .inp input{
+        padding: 1.5px 0 1.5px 0;
+        border: none;
+        border-radius: 2px;
+        border-bottom: 2px solid rgb(239 68 68);
+    }
+    #sudu{
+        padding: 4px 20px 4px 20px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    #ppp img{
+        height: 70px;
+        width: 130px;
+    }
+    #lh{
+        margin-bottom: 50px;
+    }
+    #ef{
+        width: 90%;
+    }
+    #eb{
+        padding-left: 20px;
+        width: 30%;
+        padding-right: 20px;
+    }
+    #land{
+        display: none;
+    }
+    #ls{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 95%;
+        /* padding: 10px 0 10px 0; */
+        padding: 0;
+        gap: 10px;
+        height: calc(93vh - 100px);
+    }
+    #ls .content{
+        width: 95%;
+        height: fit-content;
+        
+    }
+
+    #pls{
+        padding: 2px 14px 2px 14px;
+        font-size: 18.5px;
+    }
+
+    #ls .content h1{
+        font-size: 36px;
+        line-height: 55px;
+        margin-bottom: 12px;;
+    }
+    #ls .content p{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+    }
+    #my{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .controllers{
+        justify-content: center;
+        align-items: center;
+    }
+    #gu{
+        display: none;
+    }
+    #conc{
+        margin-top: 20px;
+    }
+    #conc h1{
+        font-size: 20px;
+    }
+    #epc{
+        width: 90%;
+    }
+    #epc h1{
+        font-size: 34px;
+        line-height: 45px;
+        font-weight: 700;
+    }
+    #epc h3{
+        font-size: 18px;
+    }
+    #pc{
+        width: 100%;
+    }
+    #pc .greet{
+        padding-top: 30px;
+        width: 110%;
+        justify-content: space-between;
+    }
+    #pc .greet .pp{
+        width: 60px;
+        height: 60px;
+    }
+    #pc .greet h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    #pc .greet .nxt{
+        margin-top: 5px;
+        padding-left: 7px;
+    }
+    #pc .greet .nxt h3{
+        font-size: 15px;
+    }
+    #shr{
+        padding-top: 10px;
+    }
+    #nih{
+        margin-top: 25px;
+        gap: 20px;
+    }
+    #nih h1{
+        font-size: 18px;
+        padding-left: 5px;
+        margin-top: 10px;
+    }
+
+    #post{
+        width: 90%;
+    }
+    .conttt{
+        margin: auto;
+        height: 50vh;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conttt img{
+        display: inline-block;
+        height: 70%;
+        width: 70%;
+    }
+    .conttt h1{
+        margin: 50px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #pss{
+        width: 100px;
+        font-size: 15px;
+        padding: 4px 8px 4px 8px;
+    }
+    #post textarea{
+        padding: 15px;
+        height: 180px;
+        font-size: 12px;
+        border: 1px solid rgb(224, 224, 224);
+    }
+    #pmain{
+        background-image: url("../images/cartographer.png");
+        overflow-x: hidden
+    }
+    .prevposts{
+        padding: 0;
+    }
+    #pph{
+        font-size: 26px;
+        margin-top: 25px;
+    }
+    #ppd{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    #ppd .post{
+        width: 100%;
+        padding: 15px;
+        border-width: 2px;
+    }
+    #pposty h1{
+        padding-top: 0;
+        padding-bottom: 12px;
+        font-size: 14px;
+    }
+    #mc{
+        margin-top: 10px;
+        gap: 40px;
+    }
+    #mcc{
+      flex-direction: column;
+      gap: 10px;
+    }
+    #mcc .likesystem{
+        font-size: 13px;
+    }
+    #mcc .likesystem span{
+        font-weight: normal;
+        font-size: 17px;
+    }
+    #mcc a{
+        font-size: 13px;
+        font-weight: normal;
+    }
+    #dww{
+        text-align: right;
+        font-size: 14px;
+    }
+}

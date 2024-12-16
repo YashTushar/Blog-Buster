@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favi.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BlogBuster-SignUp</title>
+</head>
+<body>
+    <div id="sup" class="all w-screen min-h-screen bg-zinc-900 text-white flex flex-col">
+        <header id="comp" class="bg-red-500 text-white"><h1 class="text-4xl px-10 py-4 font-bold"><a href="/">Blog Buster</a></h1></header>
+        <h1  id="shh" class="text-4xl font-bold text-center pr-10 pt-3 pb-3 bg-white text-red-500 ">Sign Up</h1>
+        <div class="content flex justify-between gap-2">
+            <form id="sf" action="/signup" method="post" class="flex flex-col gap-7 px-7 py-10 w-3/12 h-fit border-4 border-red-500 rounded-xl mt-10 m-auto mb-10" >
+                <div id="ppp" class="pp h-24 w-full rounded-xl flex justify-center items-center mt-[5px] mb-[10px]">
+                    <img class="w-6/12 h-6/12 object-contain object-top "alt="profile picture" src='https://static.vecteezy.com/system/resources/previews/019/879/186/original/user-icon-on-transparent-background-free-png.png'>
+                </div>
+                <div class="un flex  items-center gap-5">
+                    <div class="title w-6/12 text-right"> <h1 class="text-2xl">Username:</h1></div>
+                   <div class="inp w-full"> <input type="text" name="username"  class="bg-zinc-800 py-2 text-center border-2 border-red-500 rounded-lg w-full" placeholder="Username"></div>
+                </div>
+                <div class="un flex  items-center gap-5">
+                    <div class="title w-6/12 text-right"> <h1 class="text-2xl">Name:</h1></div>
+                   <div class="inp w-full"> <input type="text" name="name"  class="bg-zinc-800 py-2 text-center border-2 border-red-500 rounded-lg w-full" placeholder="Name"></div>
+                </div>
+                <div class="un flex  items-center gap-5">
+                    <div class="title w-6/12 text-right"> <h1 class="text-2xl">Age: </h1></div>
+                   <div class="inp w-full"> <input type="number" name="age"  class="bg-zinc-800 py-2 text-center border-2 border-red-500 rounded-lg w-full" placeholder="Age"></div>
+                </div>
+                <div class="un flex  items-center gap-5">
+                    <div class="title w-6/12 text-right"> <h1 class="text-2xl">Email-ID: </h1></div>
+                   <div class="inp w-full "> <input type="email" name="email"  class="bg-zinc-800 py-2 text-center border-2 border-red-500 rounded-lg w-full" placeholder="Email-ID"></div>
+                </div>
+                <div class="un flex  items-center gap-5">
+                    <div class="title w-6/12 text-right"> <h1 class="text-2xl">Password: </h1></div>
+                   <div class="inp w-full"> <input type="password" name="password"  class="bg-zinc-800 py-2 text-center border-2 border-red-500 rounded-lg w-full" placeholder="Password"></div>
+                </div>
+                <div class="sub flex justify-center rounded-lg mt-[10px]">
+                    <input id="sudu" type="submit" value="SignUp" class="bg-red-500 px-7 py-2 rounded-lg text-lg font-semibold cursor-pointer">
+                </div>
+                <span class="text-md text-center">Already have account?<a  class="text-red-500 text-md cursor-pointer text-center underline pl-1" href="/login"> Login Here</a></span>
+            </form>
+            <div id="istyle" class="illus w-6/12"><img class="h-5/6 mt-10" src="images/Customer review.gif" alt="" srcset=""></div>
+        </div>
+    </div>
+</body>
+</html>
